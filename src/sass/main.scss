@@ -1,0 +1,13 @@
+// RESET
+@import './base/reset';
+
+// LAYOUT
+@import './layout/header.scss';
+@import './layout/gallery.scss';
+
+//COMPONENTS
+@import './components/input.scss';
+@import './components/buttons.scss';
+
+// UTILS
+@import './utils/is-hidden.scss'; //

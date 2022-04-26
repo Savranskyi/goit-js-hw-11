@@ -1,0 +1,30 @@
+.search-form {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  .search__input {
+    display: flex;
+    flex: 1;
+    padding: 1.2rem 1rem 1.2rem 4rem;
+    height: 40px;
+    font-size: 0.9rem;
+    color: #4a4a4a;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    right: 0;
+    letter-spacing: 0.05rem;
+    background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png)
+      #ececec;
+    background-repeat: no-repeat;
+    background-position: 1rem 50%;
+    background-size: 2rem;
+    outline: 0;
+    transition: background 0.3s ease-out, opacity 0.5s ease-out;
+    &:focus {
+      background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png)
+        no-repeat 1rem 50% #ffffff;
+      background-size: 2rem;
+    }
+  }
+}

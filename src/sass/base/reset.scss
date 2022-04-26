@@ -1,0 +1,21 @@
+$primary-color: #607d8b;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+}
+
+p {
+  font-size: 0.8rem;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,25 @@
+.search__button,
+.load-more {
+  background: darken($primary-color, 20%);
+  height: 40px;
+  border: none;
+  width: 120px;
+  color: #fff;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  outline: 0;
+  transition: all 0.4s ease-out;
+
+  &:hover {
+    background: darken($primary-color, 28%);
+  }
+}
+
+.load-more {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
