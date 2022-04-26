@@ -25,6 +25,7 @@ function onSearchFormSubmit(e) {
   searchRequest = e.currentTarget.searchQuery.value.trim();
   gallery.innerHTML = '';
   loadMoreButtton.classList.add('is-hidden');
+  if (!searchRequest) return;
 
   fetchImages(searchRequest, page, perPage)
     .then(({ data }) => {
